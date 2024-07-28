@@ -275,22 +275,22 @@ nav ul li {
         width: 85%;
     }
 }
-.skill_bar .bar .sass{
+.skill_bar .bar .javascript{
     width: 80%;
-    animation: sass 2s;
+    animation: jacascript 2s;
 }
-@keyframes sass {
+@keyframes javascript {
     0%{
         width: 0%;
     }100%{
         width: 80%;
     }
 }
-.skill_bar .bar .js{
+.skill_bar .bar .nextjs{
     width: 80%;
-    animation: css 2s;
+    animation: nextjs 2s;
 }
-@keyframes js {
+@keyframes nextjs {
     0%{
         width: 0%;
     }100%{
@@ -298,17 +298,17 @@ nav ul li {
     }
 }
 .skill_bar .bar .react{
-    width: 75%;
+    width: 10%;
     animation: react 2s;
 }
 @keyframes react {
     0%{
         width: 0%;
     }100%{
-        width: 75%;
+        width: 10%;
     }
 }
-.skill_bar .bar .node{
+/* .skill_bar .bar .node{
     width: 70%;
     animation: node 2s;
 }
@@ -318,7 +318,7 @@ nav ul li {
     }100%{
         width: 70%;
     }
-}
+} */
 .skill_bar .bar .express{
     width: 65%;
     animation: express 2s;
@@ -330,15 +330,52 @@ nav ul li {
         width: 65%;
     }
 }
+
+.skill_bar .bar .SQL{
+    width: 45%;
+    animation: SQL 2s;
+}
+@keyframes SQL {
+    0%{
+        width: 0%;
+    }100%{
+        width: 45%;
+    }
+}
+
 .skill_bar .bar .mongo{
-    width: 60%;
+    width: 15%;
     animation: mongo 2s;
 }
 @keyframes mongo {
     0%{
         width: 0%;
     }100%{
+        width: 15%;
+    }
+}
+
+.skill_bar .bar .c{
+    width: 60%;
+    animation: c 2s;
+}
+@keyframes c {
+    0%{
+        width: 0%;
+    }100%{
         width: 60%;
+    }
+}
+
+.skill_bar .bar .python{
+    width: 80%;
+    animation: python 2s;
+}
+@keyframes python {
+    0%{
+        width: 0%;
+    }100%{
+        width: 80%;
     }
 }
 
